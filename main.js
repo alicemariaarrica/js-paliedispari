@@ -17,3 +17,10 @@ function Palindroma(parola) {
     }
     return true; 
 }
+
+if  (Palindroma(parola)) {
+    console.log("è un palindromo");
+} else {
+    console.log("non è un palindromo");
+}
+
