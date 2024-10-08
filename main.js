@@ -9,16 +9,18 @@
 
 let parola = prompt("Inserisci una parola:");
 
-function Palindroma(parola) {
+function Palindromo(parola) {
+   
     for (let i = 0; i < parola.length / 2; i++) {
+
         if (parola[i] !== parola[parola.length - 1 - i]) {
-            return false;
+            return false; 
         }
     }
     return true; 
 }
 
-if  (Palindroma(parola)) {
+if  (Palindromo(parola)) {
     console.log("è un palindromo");
 } else {
     console.log("non è un palindromo");
